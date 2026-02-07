@@ -5,8 +5,9 @@
   --color-superpets: #7C3AED;
   --color-quizzi: #0EA5E9;
   --color-bg: #0A0A0B;
-  --color-surface: #141416;
-  --color-border: #23232A;
+  --color-surface: #18181B;
+  --color-border: #27272A;
+  --color-border-strong: #2E2E35;
   --color-text: #FAFAFA;
   --color-text-muted: #8B8B8D;
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
@@ -17,4 +18,19 @@ body {
   color: var(--color-text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.4s ease-out both;
 }
