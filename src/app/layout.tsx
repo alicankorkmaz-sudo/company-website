@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "Colossus Software | We build mobile apps that people love",
   description:
     "Colossus Software LLC builds mobile apps that people love. Creators of Brekitz, SuperPets, and Quizzi.",
+  icons: {
+    icon: "/favicon.png",
+  },
   openGraph: {
     title: "Colossus Software",
     description: "We build mobile apps that people love",
